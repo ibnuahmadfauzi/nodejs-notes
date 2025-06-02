@@ -12,8 +12,7 @@ Lalu parsing alamat dengan method **url.parse()** dan itu akan mengembalikan URL
 
 ```
 var url = require("url");
-var adr =
-  "http://localhost:8080/fauzidleware.html?userid=1&username=fauziyahmeitaya";
+var adr = "http://localhost:8080/fauzidleware.html?userid=1&username=fauziyahmeitaya";
 var q = url.parse(adr, true);
 
 console.log(q.host);
