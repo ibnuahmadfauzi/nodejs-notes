@@ -7,3 +7,11 @@ Konsepnya module sama seperti library atau pustaka dalam JavaScript, artinya kit
 ### Built-in Modules
 
 NodeJS memiliki berbagai macam built-in module yang bisa digunakan tanpa melakukan installasi Lihat berbagai macam referensinya di **[https://www.w3schools.com/nodejs/ref_modules.asp](https://www.w3schools.com/nodejs/ref_modules.asp)**.
+
+### Menggunaka Modul
+
+Untuk menggunakan module, gunakan fungsi **require()** yang diisi nama modul dalam parameternya.
+
+```
+var http = require('http');
+```
