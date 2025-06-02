@@ -16,7 +16,6 @@ Gunakan perintah **node -v** dan **npm -v** untuk melihat versi dari NodeJS dan 
 
 Repository ini berisi kumpulan **source code** dan **tutorial NodeJS**. Silahkan baca daftar di bawah ini untuk melihat materi apa saja yang dibahas.
 
-| Materi | Link                            |
-| ------ | ------------------------------- |
-| Basic  |
-| Intro  | **[Buka Materi](basic/intro/)** |
+### NodeJS Tutorial
+
+- **[Buka Materi](basic/intro/)** -> Introduction
