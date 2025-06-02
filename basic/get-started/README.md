@@ -32,6 +32,10 @@ Kode di atas akan memberikan intruksi kepada komputer untuk menulis konten **Hel
 File NodeJS harus dimulai dengan program CLI di komputer. Contohnya di sini kita akses programnya dengan perintah **Terminal**, gunakan **Command Prompt** atau **CMD** jika menggunakan sistem operasi Windows. Navigasikan ke tempat dimana file tersebut di simpan
 
 ```
+C:\Users\Ibnu Fauzi>e:
+
+E:\>cd study-materials\nodejs-notes\basic\get-started
+
 E:\study-materials\nodejs-notes\basic\get-started>dir
  Volume in drive E is DATA
  Volume Serial Number is 5CB8-24FB
@@ -41,9 +45,22 @@ E:\study-materials\nodejs-notes\basic\get-started>dir
 02/06/2025  13:39    <DIR>          .
 02/06/2025  13:39    <DIR>          ..
 02/06/2025  13:40               188 myfirst.js
-02/06/2025  13:48             1.302 README.md
-               2 File(s)          1.490 bytes
-               2 Dir(s)  603.498.196.992 bytes free
+02/06/2025  13:49             1.830 README.md
+               2 File(s)          2.018 bytes
+               2 Dir(s)  603.498.192.896 bytes free
 
 E:\study-materials\nodejs-notes\basic\get-started>
 ```
+
+### Menginisiasi File NodeJS
+
+Jika lokasi file sudah ditemukan dan posisi di terminal sudah berada pada file tersimpan, kita bisa melakukan run program NodeJS dengan perintah **node myfirst.js** lalu tekan **enter**
+
+```
+E:\study-materials\nodejs-notes\basic\get-started>node myfirst.js
+
+```
+
+Jika tidak ada error yang terjadi, artinya web server sudah berjalan, silahkan buka web browser dan akses alamat **[http://localhost:8080/](http://localhost:8080/)**
+
+Sekarang komputer kita sudah bekerja sebagai server.
