@@ -79,3 +79,20 @@ Module file system memiliki beberapa method untuk pembuatan file:
 - **fs.appendFile()**
 - **fs.open()**
 - **fs.writeFile()**
+
+Method **fs.appendFile()** digunakan untuk menambahkan konten spesifik ke dalam sebuah file. Jika fle tidak tersedia, maka file baru akan dibuat
+
+```
+var fs = require("fs");
+fs.appendFile("mynewfile1.txt", "Hello content!", function (err) {
+  if (err) throw err;
+  console.log("File tersimpan!");
+});
+```
+
+Simpan dengan nama **demo_create_append.js**.
+
+```
+E:\study-materials\nodejs-notes\basic\file-system>node demo_create_append.js
+File tersimpan!
+```
