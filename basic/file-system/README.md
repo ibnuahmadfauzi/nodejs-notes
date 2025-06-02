@@ -130,3 +130,45 @@ Simpan dengan nama **demo_create_writefile.js**, lalu run filenya
 E:\study-materials\nodejs-notes\basic\file-system>node demo_create_writefile.js
 File tersimpan
 ```
+
+### Update Files
+
+Module file system memiliki beberapa method untuk melakukan update file:
+
+- **fs.appendFile()**
+- **fs.writeFile()**
+
+Method **fs.appendFile()** menambahkan spesifik konten diakhir konten asli
+
+```
+var fs = require("fs");
+fs.appendFile("mynewfile1.txt", ". Ini konten baru.", function (err) {
+  if (err) throw err;
+  console.log("File diperbarui!");
+});
+```
+
+Simpan dengan nama **demo_update_append.js** lalu run filenya
+
+```
+E:\study-materials\nodejs-notes\basic\file-system>node demo_update_append.js
+File diperbarui!
+```
+
+Method **fs.writeFile()** mengganti file dan konten secara langsung
+
+```
+var fs = require("fs");
+fs.writeFile("mynewfile3.txt", "File mynewfile3.txt sudah diganti!", function (err) {
+    if (err) throw err;
+    console.log("File diganti!");
+  }
+);
+```
+
+Simpan dengan nama **demo_update_writefile.js** dan run filenya
+
+```
+E:\study-materials\nodejs-notes\basic\file-system>node demo_update_writefile.js
+File diganti!
+```

@@ -1,1 +1,1 @@
-Hello content!
+File mynewfile3.txt sudah diganti!
