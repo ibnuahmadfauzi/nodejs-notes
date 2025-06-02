@@ -192,3 +192,22 @@ Simpan dengan nama **demo_delete.js** lalu run filenya
 E:\study-materials\nodejs-notes\basic\file-system>node demo_delete.js
 File dihapus!
 ```
+
+### Rename Files
+
+Method **fs.rename()** digunakan untuk melakukan rename pada file spesifik dalam module file system
+
+```
+var fs = require("fs");
+fs.rename("mynewfile1.txt", "myrenamedfile.txt", function (err) {
+  if (err) throw err;
+  console.log("File Renamed!");
+});
+```
+
+Simpan dengan nama **demo_rename.js** lalun run filenya
+
+```
+E:\study-materials\nodejs-notes\basic\file-system>node demo_rename.js
+File Renamed!
+```
