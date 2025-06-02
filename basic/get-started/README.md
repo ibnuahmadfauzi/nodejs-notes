@@ -61,6 +61,4 @@ E:\study-materials\nodejs-notes\basic\get-started>node myfirst.js
 
 ```
 
-Jika tidak ada error yang terjadi, artinya web server sudah berjalan, silahkan buka web browser dan akses alamat **[http://localhost:8080/](http://localhost:8080/)**
-
-Sekarang komputer kita sudah bekerja sebagai server.
+Jika tidak ada error yang terjadi, artinya web server sudah berjalan, silahkan buka web browser dan akses alamat **[http://localhost:8080/](http://localhost:8080/)**. Sekarang komputer kita sudah bekerja sebagai server.
