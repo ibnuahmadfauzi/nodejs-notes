@@ -8,7 +8,7 @@ Konsepnya module sama seperti library atau pustaka dalam JavaScript, artinya kit
 
 NodeJS memiliki berbagai macam built-in module yang bisa digunakan tanpa melakukan installasi Lihat berbagai macam referensinya di **[https://www.w3schools.com/nodejs/ref_modules.asp](https://www.w3schools.com/nodejs/ref_modules.asp)**.
 
-### Menggunaka Modul
+### Menggunakan Module
 
 Untuk menggunakan module, gunakan fungsi **require()** yang diisi nama modul dalam parameternya.
 
@@ -24,3 +24,15 @@ http.createServer(function (req, res) {
   res.end('Hello World!');
 }).listen(8080);
 ```
+
+### Membuat Module
+
+Kita bisa membuat module sendiri dan menggunakan ke aplikasi dengan mudah. Contohnya kita akan membuat modul untuk menampilkan waktu dan tanggal. Buat file dengan nama **myfirstmodule.js** dan isi dengan kode berikut
+
+```
+exports.myDateTime = function () {
+  return Date();
+};
+```
+
+Gunakan keyword **exports** untuk membuat property dan method bisa diakses diluar module.
