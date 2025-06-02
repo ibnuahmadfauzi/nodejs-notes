@@ -98,3 +98,7 @@ Lalu akses dengan beberapa alamat berikut
 - **[http://localhost:8080/?userid=1](http://localhost:8080/?userid=1)**
 - **[http://localhost:8080/?userid=2](http://localhost:8080/?userid=2)**
 - **[http://localhost:8080/?userid=3](http://localhost:8080/?userid=3)**
+
+Jika ingin membawa lebih dari satu data, artinya tinggal tambahkan simbol **&** untuk membagi data satu dengan data lainnya, contoh
+
+**[http://localhost:8080/?userid=1&username=fauziyahmeitaya](http://localhost:8080/?userid=1)**
