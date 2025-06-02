@@ -26,3 +26,17 @@ Berikut perbedaan cara handle file antara **PHP** dan **NodeJS**.
 - Ketika file system dibuka dan dibaca, server mengembalikan konten ke client
 
 NodeJS menghilangkan waktu tunggu dan melanjutkan proses berikutnya. Menjalankan **single-threaded**, **non-blocing**, dan **asynchronous programming** yang lebih hemat memory.
+
+### Apa Yang Bisa Dilakukan NodeJS ?
+
+- Membuat website dengan konten yang dinamis
+- Membuat, membuka, membaca, menulis, menghapus, dan menutup file yang ada di server
+- Menangani input data dari form
+- Menambahkan, menghapus, dan memodifikasi data dalam database
+
+### File NodeJS ?
+
+- Menampung task yang akan dieksekusi pada event tertentu
+- Mengakses port server merupakan event yang umum digunakan
+- Harus dimulai dengan inisialisasi server sebelum melakukan task apapun
+- Disimpan dengan ekstensi **.js**
