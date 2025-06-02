@@ -16,7 +16,6 @@ C:\>npm -v
 
 Setelah download dan install NodeJS di komputer, sekarang kita akan belajar menampilkan teks **Hello, world** menggunakan webserver yang kita buat dengan NodeJS. Langkah pertama buat file dengan nama **myfirst.js**, lalu isi dengan kode berikut:
 
-<pre>
 ```
 var http = require("http");
 
@@ -25,4 +24,3 @@ http.createServer(function (req, res) {
     res.end("Hello World!");
   }).listen(8080);
 ```
-</pre>
