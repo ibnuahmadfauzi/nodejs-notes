@@ -67,3 +67,34 @@ http.createServer(function (req, res) {
 - **[http://localhost:8080/contact](http://localhost:8080/contact)**
 - **[http://localhost:8080/blog](http://localhost:8080/blog)**
 - **[http://localhost:8080/user/fauziyahmeitaya](http://localhost:8080/user/fauziyahmeitaya)**
+
+### Mengolah Query String
+
+Setelah bisa mengakses data **url** yang di ambil setelah nama domain, kita bisa mengolah string yang diberikan dengan menggunakan module **url**. Sebagai contoh buat file dengan nama **demo_querystring.js** lalu isi dengan kode berikut
+
+```
+var http = require("http");
+var url = require("url");
+
+http.createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+    var q = url.parse(req.url, true).query;
+    var txt = "";
+    if (q.userid == 1) {
+      txt = "<h1>Selamat Datang, Ibnu Ahmad Fauzi</h1>";
+    } else if (q.userid == 2) {
+      txt = "<h1>Selamat Datang, Fauziyah Meitaya</h1>";
+    } else {
+      txt = "<h1>User ID Tidak Ditemukan</h1>";
+    }
+    res.write(txt);
+    res.end();
+}).listen(8080);
+
+```
+
+Lalu akses dengan beberapa alamat berikut
+
+- **[http://localhost:8080/?userid=1](http://localhost:8080/?userid=1)**
+- **[http://localhost:8080/?userid=2](http://localhost:8080/?userid=2)**
+- **[http://localhost:8080/?userid=3](http://localhost:8080/?userid=3)**
