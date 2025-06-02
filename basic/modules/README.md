@@ -10,7 +10,7 @@ NodeJS memiliki berbagai macam built-in module yang bisa digunakan tanpa melakuk
 
 ### Menggunakan Module
 
-Untuk menggunakan module, gunakan fungsi **require()** yang diisi nama modul dalam parameternya.
+Untuk menggunakan module, gunakan method **require()** yang diisi nama modul dalam parameternya.
 
 ```
 var http = require('http');
@@ -39,7 +39,7 @@ Gunakan keyword **exports** untuk membuat property dan method bisa diakses dilua
 
 ### Menggunakan Module Yang Sudah Dibuat
 
-Sekarang kita bisa memanggil module ke dalam file NodeJS, dan caranya juga memanggilnya dengan fungsi **require()** seperti pada kode di bawah ini
+Sekarang kita bisa memanggil module ke dalam file NodeJS, dan caranya juga memanggilnya dengan method **require()** seperti pada kode di bawah ini
 
 ```
 var http = require("http");
