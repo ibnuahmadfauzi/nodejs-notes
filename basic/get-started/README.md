@@ -62,20 +62,3 @@ E:\study-materials\nodejs-notes\basic\get-started>node myfirst.js
 ```
 
 Jika tidak ada error yang terjadi, artinya web server sudah berjalan, silahkan buka web browser dan akses alamat **[http://localhost:8080/](http://localhost:8080/)**. Sekarang komputer kita sudah bekerja sebagai server.
-
-### Menambahkan HTTP Header
-
-Jika respon dari HTTP server menampilkan HTML, kita harus memasukkan HTTP header dengan type konten yang benar, seperti berikut ini
-
-```
-var http = require("http");
-
-http.createServer(function (req, res) {
-    res.writeHead(200, { "Content-Type": "text/html" });
-    res.write("Hello World!");
-    res.end();
-}).listen(8080);
-
-```
-
-Argumen pertama dari method **res.writeHead()** adalah status kode **200** yang berarti **OK**, dan argumen kedua berupa objek respon yang diinginkan.
