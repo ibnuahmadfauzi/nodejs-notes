@@ -70,4 +70,12 @@ http.createServer(function (req, res) {
 
 ```
 
-Lalu seperti biasa jalankan web server dan akses di web browser
+Lalu seperti biasa jalankan web server dan akses di web browser.
+
+### Create Files
+
+Module file system memiliki beberapa method untuk pembuatan file:
+
+- **fs.appendFile()**
+- **fs.open()**
+- **fs.writeFile()**
