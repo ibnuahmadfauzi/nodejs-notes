@@ -32,3 +32,14 @@ localhost:8080
 ?userid=1&username=fauziyahmeitaya
 fauziyahmeitaya
 ```
+
+### NodeJS FIle Server
+
+Sekarang kita bisa melakukan split string query dari url, pada materi sebelumnya kita sudah belajar bagaimana cara membaca file di system file. Sekarang kita akan gabungkan maka website akan menampilkan file yang diminta oleh client
+
+Sekarang coba kita buat 4 file dengan nama
+
+- **home.html**
+- **about.html**
+- **contact.html**
+- **demo_fileserver.js**
