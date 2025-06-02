@@ -96,3 +96,20 @@ Simpan dengan nama **demo_create_append.js**.
 E:\study-materials\nodejs-notes\basic\file-system>node demo_create_append.js
 File tersimpan!
 ```
+
+Method **fs.open()** menggunakan "flag" yang ditaruh di argumen kedua, jika flag "w" berarti "writing", maka spesifik file dibuka untuk melakukan penulisan, namun jika file tidak tersedia maka file kosong akan dibuat
+
+```
+var fs = require("fs");
+fs.open("mynewfile2.txt", "w", function (err, file) {
+  if (err) throw err;
+  console.log("File tersimpan!");
+});
+```
+
+Simpan dengan nama **demo_create_open.js** lalu run filenya
+
+```
+E:\study-materials\nodejs-notes\basic\file-system>node demo_create_open.js
+File tersimpan!
+```
