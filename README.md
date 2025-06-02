@@ -19,3 +19,4 @@ Repository ini berisi kumpulan **source code** dan **tutorial NodeJS**. Silahkan
 ### NodeJS Tutorial
 
 - **[Buka Materi](basic/intro/)** -> Introduction
+- **[Buka Materi](basic/get-started/)** -> Get Started
