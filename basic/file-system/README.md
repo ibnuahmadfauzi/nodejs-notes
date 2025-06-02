@@ -113,3 +113,20 @@ Simpan dengan nama **demo_create_open.js** lalu run filenya
 E:\study-materials\nodejs-notes\basic\file-system>node demo_create_open.js
 File tersimpan!
 ```
+
+Method **fs.writeFile()** mengganti atau mengupdate spesifik file dan konten, jika file tidak ada maka file baru berisi konten baru akan dibuat
+
+```
+var fs = require("fs");
+fs.writeFile("mynewfile3.txt", "Hello content!", function (err) {
+  if (err) throw err;
+  console.log("File tersimpan");
+});
+```
+
+Simpan dengan nama **demo_create_writefile.js**, lalu run filenya
+
+```
+E:\study-materials\nodejs-notes\basic\file-system>node demo_create_writefile.js
+File tersimpan
+```
