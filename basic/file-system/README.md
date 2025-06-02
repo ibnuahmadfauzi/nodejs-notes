@@ -172,3 +172,23 @@ Simpan dengan nama **demo_update_writefile.js** dan run filenya
 E:\study-materials\nodejs-notes\basic\file-system>node demo_update_writefile.js
 File diganti!
 ```
+
+### Delete Files
+
+Method **fs.unlink()** digunakan untuk menghapus file spesifik dalam module file system
+
+```
+var fs = require("fs");
+fs.unlink("mynewfile2.txt", function (err) {
+  if (err) throw err;
+  console.log("File dihapus!");
+});
+
+```
+
+Simpan dengan nama **demo_delete.js** lalu run filenya
+
+```
+E:\study-materials\nodejs-notes\basic\file-system>node demo_delete.js
+File dihapus!
+```
