@@ -22,5 +22,7 @@ var http = require("http");
 http.createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.end("Hello World!");
-  }).listen(8080);
+}).listen(8080);
 ```
+
+Kode di atas akan memberikan intruksi kepada komputer untuk menulis konten **Hello World!** di halaman browser ketika mengakses port **8080**. Untuk sementara kita tidak perlu memahami semua kodenya, akan dibahas secara perlahan nanti.
