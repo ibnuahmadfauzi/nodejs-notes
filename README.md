@@ -25,3 +25,6 @@ Repository ini berisi kumpulan **source code** dan **tutorial NodeJS**. Silahkan
 - **[Buka Materi](basic/file-system/)** -> File System
 - **[Buka Materi](basic/url-module/)** -> URL Module
 - **[Buka Materi](basic/npm/)** -> NPM
+- **[Buka Materi](basic/events/)** -> Events
+- **[Buka Materi](basic/upload-files/)** -> Upload Files
+- **[Buka Materi](basic/email/)** -> Email
