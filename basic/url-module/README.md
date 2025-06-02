@@ -158,4 +158,4 @@ http.createServer(function (req, res) {
 }).listen(8080);
 ```
 
-Pada contoh di atas kita membuat routing sederhana, yang mana file yang ditampilkan tergantung request yang diminta client, ketika file tidak tersedia maka akan menampilkan konten **"404 Not Found"**
+Pada contoh di atas kita membuat routing sederhana, yang mana file yang ditampilkan tergantung request yang diminta client, ketika file tidak tersedia maka akan menampilkan konten **"404 Not Found"**. Contohnya run file **demo_fileserver.js** dan akses alamat **[http://localhost:8080/home.html](http://localhost:8080/home.html)**
